@@ -6,7 +6,6 @@ app = Flask(__name__)
 CONTEXT_PATH = "/customer_service"
 SERVICE_PORT = 5000
 EUREKA_SERVER = "http://localhost:8761/eureka/"
-
 eureka_client.init(
     eureka_server = EUREKA_SERVER,
     app_name = "CUSTOMER-SERVICE",

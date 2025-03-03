@@ -22,3 +22,9 @@ spring:
           predicates:
             - Path=/inventory-service/**
 
+        - id: customer-service
+          uri: http://localhost/5000
+          predicates:
+            - Path=/customer-service/**
+
+
